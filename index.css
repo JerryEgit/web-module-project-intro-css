@@ -1,8 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-/
-
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,7 +21,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/ HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -71,93 +70,78 @@ a {
     text-decoration: none; /*Removes underline from links*/
     color: #4F4F4F; 
 }
-
-header nav a {
+nav a {
     display: inline-block;
-    width:30%;
+    width:10%;
     text-align: center;
     padding: 1% 0%;
     border-radius: 10%;
     text-align: center;
     color:#fff;
 }
-
 .target1 {
     margin-left: 10%;
     background-color: #FF764E;   
 }
-
 .target2 {
     margin: 0 24%;
    background-color: #5ED3EB;
 }
-
 .target3 {
     margin-right: 10%;
     background-color: #FFCD69;
 }
-
 .a1 {
     position: relative;
 }
-
 .left img {
     border-radius: 50%;
     width: 55%;
 }
-
 .left, .right {
     display:inline-block;
     text-align: center;
 }
-
 .left {
     width:40%;
 }
-
 .right {
     width: 45%;
     margin-left: 3%;
     position:absolute;
-    bottom: 10%;
+    bottom: 5%;
 }
-
 .right h1 {
     font-size: 8rem;
 }
-
 .right h2 {
     font-size: 3rem;
 }
-
 .right p {
     font-size: 3rem;
 }
-
 .right h1, h2, p {
     margin: 3%;
 }
-
 #b1 {
     background-color: #DDB9A3;
     width: 90%;
     margin: 2% 5%;
     font-size: 3rem;
 }
-
 #c1 {
     display:inline-block;
     width: 80%;
     margin: 2% 5%;
     text-align:center;
 }
-
-.c2 img #d1 img {
+.c2 img, .d1 img {
     width: 10%;
-
 }
-
-.c2 p #d1 p {
+.d1 img {
+    margin-left: 42%;
+}
+.c2 p, .d1 p {
 width: 25%;
 margin-left: 36%;
 }
@@ -168,13 +152,11 @@ margin-left: 36%;
     background-size: cover;
     background-position: top;
 }
-
 footer {
-    background-color: #f9e7dc;
+    background-color: #F9E7DC;
     height: 25vh;
     padding-top: 3.5%;
 }
-
 .footer nav {
     margin: 0% 5%;
 }
